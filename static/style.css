@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+}
+
+.cover {
+  width: 100%;
+  height: 43.99em;
+  position: absolute;
+  background-color: #000;
+  opacity: .8;
+  top: 0;
+}
+
+.background_image {
+  background-image: url("images/background.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 43.99em;
+  position: fixed;
+}
+.projects_page {
+  width: 100%;
+  height: 88em;
+  position: absolute;
+  background-color: white;
+  top: 44em;
+}
+
+.contact_page {
+  width: 100%;
+  height: 49em;
+  position: absolute;
+  background-color: #F6F6F6;
+  top: 132em;
+  display: inline-block;
+}
+
+.header {
+  font-family: "PT Sans Caption";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+  height: 100px;
+  width: 60%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  color: #FFF;
+}
+
+.design {
+  background-image: url("images/acdesign.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  height: 125px;
+  width: 250px;
+  left: 4em;
+  top:1em;
+
+}
+
+.header2 {
+  font-family: "PT Sans Caption";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+  height: 100px;
+  width: 60%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  color: #000;
+  display: none;
+}
+
+.header2_container {
+  border-bottom: 1pt solid black;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: none;
+  background-color: #FFF;
+}
+
+.design2 {
+  background-image: url("images/acdesign2.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  height: 125px;
+  width: 250px;
+  left: 4em;
+  top:1em;
+  display: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 4;
+}
+
+.header3 {
+  font-family: "PT Sans Caption";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+  height: 100px;
+  width: 60%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  color: #000;
+  display: none;
+}
+
+.design3 {
+  background-image: url("images/acdesign2.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  height: 125px;
+  width: 250px;
+  left: 4em;
+  top:1em;
+  display: none;
+
+}
+
+.home {
+  display: inline-block;
+  margin-left: 15%;
+  margin-top: .5em;
+  text-decoration: none;
+}
+
+.home:hover {
+  color: #008cd4;
+  cursor: pointer;
+}
+
+.home:active {
+  color: #FFF;
+}
+
+.contact {
+  display: inline-block;
+  margin-left: 15%;
+  margin-top: .5em;
+}
+
+.contact:hover {
+  color: #008cd4;
+  cursor: pointer;
+}
+
+.projects {
+  display: inline-block;
+  margin-left: 15%;
+  margin-top: .5em;
+}
+
+.projects:hover {
+  color: #008cd4;
+  cursor: pointer;
+}
+
+.selected {
+  text-decoration: none;
+  padding-bottom: 10px;
+  border-bottom: 4pt solid #008cd4;
+}
+
+.self_photo {
+
+  background-image: url("images/me.jpg");
+  height: 7.5em;
+  width: 8em;
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+  border: 1pt solid black;
+  background-size: cover;
+  background-position: 35% 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+a {
+  color:#008cd4;
+}
+.about_me_cover {
+  width: 100%;
+  height: 99.99vh;
+  position: absolute;
+  top: 0;
+  display: inline-block;
+}
+
+.about_me {
+  opacity: 1;
+  height: 20em;
+  width: 45em;
+  margin: 0 auto;
+  margin-top: 15em;
+
+}
+.about_me p {
+  color: #FFF;
+  font-family: "PT Sans Caption";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+
+.small_logo {
+  height: 75px;
+  width: 200px;
+}

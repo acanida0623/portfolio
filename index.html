@@ -1,0 +1,173 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans+Caption" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="static/script.js"></script>
+<link rel="stylesheet" type="text/css" href="static/style.css">
+<link rel="stylesheet" type="text/css" href="static/contact.css">
+<link rel="stylesheet" type="text/css" href="static/projects.css">
+<link rel="stylesheet" type="text/css" href="static/hover-effects.css">
+</head>
+<body>
+  <div class = "background_image">
+  </div>
+<div class = "cover">
+</div>
+
+<div class="about_me_cover">
+  <div class="about_me">
+    <div class="self_photo">
+    </div>
+    <p>I am a web developer from Sisters, Oregon, currently living in Vancouver, Washington. I create
+      everything from single-page responsive websites to full-stack Django applications. If you are
+      interested in acquiring more information about my work, or are an employer seeking to hire,
+      please visit the contact section <a class="contact_link" href="#">here</a>.
+    </p>
+  </div>
+</div>
+
+<div class = "design">
+</div>
+<div class = "header">
+  <div class = "home selected">HOME</div>
+  <div class = "projects">PROJECTS</div>
+  <div  class = "contact">CONTACT</div>
+</div>
+
+<div class ="projects_page">
+  <div class = "design2">
+  </div>
+
+<div class = "header2_container">
+  <div class = "header2">
+    <div class = "home selected">HOME</div>
+    <div class = "projects">PROJECTS</div>
+    <div  class = "contact">CONTACT</div>
+  </div>
+</div>
+
+  <div id = "project_1">
+    <a href="https://digitalphotocloud.herokuapp.com" >
+      <div class="effect-1">
+        <div class ="background_p1">
+        </div>
+         <div class="image-box">
+            <img src="static/images/digitalphotositeimage.png" alt="Image-3">
+         </div>
+         <div class="text-desc">
+            <h3>Digital-Photo Cloud</h3>
+            <p>Digital Photo Cloud is a site I created for family and friends. Users create albums and store images on an S3 cloud server. These albums may be shared with specific friends, whom may also contribute & upload pictures to the shared albums.</p>
+         </div>
+      </div>
+    </a>
+  </div>
+  <div class = "project1_info">
+    <h2>Digital Photo Cloud</h2>
+    <div class="project1_description">
+      <p>Digital Photo Cloud is a Python web application I designed using Django web framework. The backend uses a PostgreSQL database as well as Amazon's S3 database API. I built the front end user interface of the application using React JS, which is a Javascript library.
+         React is a great tool that allows the user to render all of the HTML used in the application through Javascript. React creates its own virtual representation of the application's DOM,
+         which in turn allows for more control over specific components and quicker manipulation of the elements on the page. </p>
+    </div>
+    <div class="language_container">
+      <div class="language_icon" />
+        <span>ReactJS</span>
+      </div>
+      <div class="language_icon" />
+        <span>Webpack/JSX</span>
+      </div>
+      <div class="language_icon" />
+        <span>Jquery/Ajax</span>
+      </div>
+      <div class="language_icon" />
+        <span>Python/Django</span>
+      </div>
+      <div class="language_icon" />
+        <span>Postgresql DB/AWS S3 DB</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="project1_seperator">
+  </div>
+
+  <div id = "project_2">
+    <a href="acanida0623.github.io" >
+      <div class="effect-1">
+        <div class ="background_p1">
+        </div>
+         <div class="image-box">
+            <img src="static/images/blackjackjs.png" alt="Image-3">
+         </div>
+         <div class="text-desc">
+            <h3>Javascript Blackjack</h3>
+            <p>Feel free to visit the site and start up a game of Blackjack! The game is currently only one player
+              versus the dealer, but I plan on implementing user accounts and multiplayer functionality, presumably using Node.JS and Socket.IO to communicate with the server/players.</p>
+         </div>
+      </div>
+    </a>
+  </div>
+  <div class = "project2_info">
+    <h2>Javascript Blackjack</h2>
+    <div class="project2_description">
+      <p>Since I am a huge fan of Blackjack, I created this Blackjack web application, once again using React JS for the front-end interface. This was my first attempt at teaching myself React, and most of the games functionality/rules are implemented through methods
+        inside of JS objects created with constructors.I have since learned how to use methods inside of React components entirely to build an application, which is what the designers of the library intended. I created all of the graphics using Adobe Photoshop.
+        The animation is done with CSS transitions. React once again made it fairly easy to quickly change and control multiple elements on the app such as the cards and chips without having to reload the entire DOM. </p>
+    </div>
+    <div class="language_container">
+      <div class="language_icon" />
+        <span>ReactJS</span>
+      </div>
+      <div class="language_icon" />
+        <span>Webpack/JSX</span>
+      </div>
+      <div class="language_icon" />
+        <span>Adobe Photoshop CS6</span>
+      </div>
+      <div class="language_icon" />
+        <span>HTML5/CSS3</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class ="contact_page">
+
+  <div id="form-div">
+    <form class="form" id="form1" action="static/mailer.php" method="post">
+
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+
+      <p class="text">
+        <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Message"></textarea>
+      </p>
+
+
+      <div class="submit">
+        <input type="submit" name="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+
+    <div class="phone_number">
+      <span>541-610-7933</span>
+    </div>
+
+    <a href="mailto:andrew.canida@gmail.com" target="_top">
+      <div class="email_address">
+        <span>Andrew.Canida@gmail.com</span>
+      </div>
+    </a>
+  </div>
+
+
+</div>
+
+</body>
+</html>
